@@ -1,9 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import style from "./styles.module.css";
 import { RxSpeakerLoud, RxSpeakerOff } from "react-icons/rx";
 import useSound from "use-sound";
 
-const Audio = () => {
+const Audio = ({ propClass }) => {
   const [value, setValue] = useState(false);
   const [playClick] = useSound("/sounds/click.wav", { volume: 0.2 });
   const [playSound, { stop }] = useSound("/sounds/sound-1.mp3", {
@@ -30,7 +30,7 @@ const Audio = () => {
   // }, [value]);
 
   return (
-    <div className="fixed top-[2%] sm:top-[4%] left-[5%] sm:right-[4%] z-10">
+    <div className={`${propClass}`}>
       <div className="flex w-fit ml-auto items-center">
         <div className="icon">
           {value ? (
@@ -48,7 +48,7 @@ const Audio = () => {
           <span
             className={`${style.slider} ${style.round} ${
               value
-                ? "before:!content-['ON'] switch__bg"
+                ? "bg-color-tem before:!content-['ON'] switch__bg"
                 : "before:!content-['OFF']"
             } before:flex before:justify-center before:text-yellow-600 text-[10px] before:items-center before:shadow-lg`}
           ></span>

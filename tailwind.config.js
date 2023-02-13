@@ -40,6 +40,7 @@ module.exports = {
         "theme-wrapper-bg": "var(--theme-wrapper-bg)",
         "primary-text-color": "var(--primary-text-color)",
         "hover-color": "var(--hover-color)",
+        "card-bg": "var(--card-bg)",
       },
       fontFamily: {
         eczar: ["var(--font-eczar)"],

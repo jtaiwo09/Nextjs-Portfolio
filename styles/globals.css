@@ -16,6 +16,7 @@
   --theme-wrapper-bg: #252423;
   --primary-text-color: #878787;
   --hover-color: #fff;
+  --card-bg: #555;
 }
 
 section, .bg-sideBar-bg {
@@ -39,6 +40,7 @@ section, .bg-sideBar-bg {
   --primary-text-color: #151414;
   --hover-color: #1b1b1b;
   transition: all 2s ease;
+  --card-bg: #fbf8f8;
 }
 
 body {
@@ -130,19 +132,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
-
-/* @media screen and (min-width: 1200px) {
-  .section__padding {
-    padding-left: 12rem;
-  }
-  .fake-big {
-    display: block;
-    font-size: 20rem;
-    top: -70px;
-    left: 50%;
-  }
-} */
 
 @media screen and (max-width: 1023px) {
   .section__padding {

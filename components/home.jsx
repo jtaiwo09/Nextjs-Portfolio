@@ -44,12 +44,12 @@ const item = {
   },
 };
 
-const Header = () => {
+const Home = () => {
   return (
     <section className="min-h-[100vh] flex items-center bg-primary-bg relative header__container section__padding">
       <div className="fake-big">Home</div>
       <main className="w-full">
-        <div className="animate-wiggle sm:hidden mb-10 rounded-full overflow-hidden switch__bg w-[230px] h-[230px] m-auto border-hover-color border-[5px] border-solid ">
+        <div className="animate-wiggle sm:hidden mb-10 rounded-full overflow-hidden bg-color-tem switch__bg w-[230px] h-[230px] m-auto border-hover-color border-[5px] border-solid ">
           <Image
             src={Profile}
             alt="profile"
@@ -110,4 +110,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Home;

@@ -4,6 +4,7 @@ import SkillCards from "@/components/skillCards";
 import Title from "@/components/title";
 import Fade from "react-reveal/Fade";
 import ActionButton from "@/components/actionButton";
+import Head from "next/head";
 
 const title = ["A", "b", "o", "u", "t", " ", "&", "", "S", "k", "i", "l", "l"];
 
@@ -39,29 +40,34 @@ const handleClick = (e) => {
 
 const About = () => {
   return (
-    <section className="section__padding bg-primary-bg min-h-screen relative">
-      <div className="fake-big">About</div>
-      <div className="pt-[100px]">
-        <Title title={title} />
-        <Fade left cascade delay={500} duration={1000}>
-          <div className="max-w-[600px] w-full">
-            {about.map(({ text, id }) => {
-              return (
-                <p className="" key={id}>
-                  {text}
-                </p>
-              );
-            })}
-            <ActionButton
-              text="Download CV"
-              type="button"
-              handleClick={handleClick}
-            />
-          </div>
-        </Fade>
-        <SkillCards />
-      </div>
-    </section>
+    <>
+      <Head>
+        <title>JTK | About</title>
+      </Head>
+      <section className="section__padding bg-primary-bg min-h-screen relative">
+        <div className="fake-big">About</div>
+        <div className="pt-[100px]">
+          <Title title={title} />
+          <Fade left cascade delay={500} duration={1000}>
+            <div className="max-w-[600px] w-full">
+              {about.map(({ text, id }) => {
+                return (
+                  <p className="" key={id}>
+                    {text}
+                  </p>
+                );
+              })}
+              <ActionButton
+                text="Download CV"
+                type="button"
+                handleClick={handleClick}
+              />
+            </div>
+          </Fade>
+          <SkillCards />
+        </div>
+      </section>
+    </>
   );
 };
 

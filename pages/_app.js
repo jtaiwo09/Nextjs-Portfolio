@@ -5,9 +5,9 @@ import "animate.css";
 import Sidebar from "@/components/sidebar";
 import ThemeTemplate from "@/components/themingTemplate";
 import "../utils/templateColors.css";
-import MobileNav from "@/components/mobileNav";
 import { ToastContainer } from "react-toastify";
 import Audio from "@/components/audio";
+import Navigation from "@/components/Navigation";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -24,8 +24,8 @@ export default function App({ Component, pageProps }) {
     <div className={`${poppins.className} ${eczar.variable} relative`}>
       <AppProvider>
         <ToastContainer />
-        <Audio />
-        <MobileNav />
+        <Audio propClass="fixed top-[4%] sm:right-[4%] z-10 hidden sm:block" />
+        <Navigation />
         <Sidebar />
         <ThemeTemplate />
         <Component {...pageProps} />

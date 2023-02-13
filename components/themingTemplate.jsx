@@ -34,7 +34,7 @@ const ThemeTemplate = React.memo(() => {
         }}
       >
         <div
-          className="fixed right-[40px] bottom-[30px] cursor-pointer sm:bg-primary-bg p-2.5 sm:rounded-[50%_50%_0] sm:shadow-box-shadow z-[999]"
+          className="fixed right-[40px] bottom-[30px] cursor-pointer sm:bg-primary-bg p-2.5 sm:rounded-[50%_50%_0] sm:shadow-box-shadow z-[10]"
           onClick={openTemplate}
         >
           <FiSettings className="text-[1.6rem] sm:text-[2.25rem] text-color-tem transition-[all_0.5s_linear] switch__color settings-spin" />

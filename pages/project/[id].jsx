@@ -16,7 +16,7 @@ const ProjectDetails = () => {
     <section className="section__padding min-h-screen relative bg-primary-bg">
       <button
         onClick={() => back()}
-        className="w-[40px] switch__bg absolute top-[30px] flex justify-center items-center rounded-[5px] py-1 cursor-pointer"
+        className="hidden sm:flex w-[40px] switch__bg absolute top-[30px] justify-center items-center rounded-[5px] py-1 cursor-pointer"
       >
         <BsArrowLeft className="text-[20px] text-hover-color" />
       </button>
