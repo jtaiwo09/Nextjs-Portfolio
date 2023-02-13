@@ -30,7 +30,7 @@ const Audio = () => {
   // }, [value]);
 
   return (
-    <div className="fixed top-[3%] sm:top-[4%] left-[4%] sm:right-[4%] z-10">
+    <div className="fixed top-[2%] sm:top-[4%] left-[5%] sm:right-[4%] z-10">
       <div className="flex w-fit ml-auto items-center">
         <div className="icon">
           {value ? (
