@@ -96,7 +96,7 @@ const skillSet = [
   {
     icon: <SiSass className="skills-icon switch__color" />,
     spanText: "SASS",
-    url: "",
+    url: "https://github.com/jtaiwo09",
   },
   {
     icon: <FaGit className="skills-icon switch__color" />,
@@ -136,7 +136,7 @@ const skillSet = [
   {
     icon: <DiMongodb className="skills-icon switch__color" />,
     spanText: "MONGO DB",
-    url: "",
+    url: "https://github.com/jtaiwo09",
   },
 ];
 
@@ -153,7 +153,7 @@ const projects = [
     },
     gitHubUrl: {
       icon: <GrGithub />,
-      url: "https://github.com/Almarex-Web-Dev/React-booking-project",
+      url: "https://github.com/jtaiwo09",
     },
   },
   {
@@ -168,7 +168,7 @@ const projects = [
     },
     gitHubUrl: {
       icon: <GrGithub />,
-      url: "https://github.com/Almarex-Web-Dev/React-booking-project",
+      url: "https://github.com/jtaiwo09",
     },
   },
   {
@@ -183,7 +183,7 @@ const projects = [
     },
     gitHubUrl: {
       icon: <GrGithub />,
-      url: "https://github.com/Almarex-Web-Dev/React-booking-project",
+      url: "https://github.com/jtaiwo09",
     },
   },
   {
@@ -198,7 +198,7 @@ const projects = [
     },
     gitHubUrl: {
       icon: <GrGithub />,
-      url: "https://github.com/Almarex-Web-Dev/React-booking-project",
+      url: "https://github.com/jtaiwo09",
     },
   },
 ];
