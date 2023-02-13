@@ -1,0 +1,281 @@
+/* template mode styles */
+
+/* Theme template color 1 */
+#template-1 .switch__color,
+#template-1 .active-links,
+#template-1 h1,
+#template-1 h2,
+#template-1 h3,
+#template-1 h4,
+#template-1 .nav__links:hover,
+#template-1 .link-icon {
+    color: rgb(16, 219, 246);
+  }
+  #template-1 .fill__color {
+    fill: rgb(16, 219, 246);
+  }
+    #template-1 .switch__bg, #template-1 .nav__toggler::after, #template-1 .nav__toggler::before,
+
+  #template-1 .skill-container::after,
+  #template-1 .skill-container:hover,
+  #template-1 ::-webkit-scrollbar-thumb,
+  #template-1 .blog-heading::after,
+  #template-1 .blog-heading::before,
+  #template-1 .form-input-group input + span::after,
+  #template-1 .form-input-group textarea + span::after {
+    background-color: rgb(16, 219, 246);
+  }
+  #template-1 .switch__border-color,
+  #template-1 .input-search:focus,
+  #template-1 .active-mode {
+    border: 1px solid rgb(16, 219, 246);
+  }
+  #template-1 .switch__stroke-color {
+    stroke: rgb(16, 219, 246);
+  }
+  #template-1 .skill-container:hover .skills-icon,
+  #template-1 .skill__name {
+    color: var(--hover-color);
+  }
+
+/* Theme template color 2 */
+#template-2 .switch__color,
+#template-2  .active-links,
+#template-2 h1,
+#template-2 h2,
+#template-2 h3,
+#template-2 h4,
+#template-2 .nav__links:hover,
+#template-2 .link-icon {
+    color: rgb(53, 245, 136);
+  }
+
+  #template-2 .fill__color {
+    fill: rgb(53, 245, 136);
+  }
+    #template-2 .switch__bg, #template-2 .nav__toggler::after, #template-2 .nav__toggler::before,
+
+  #template-2 .skill-container::after,
+  #template-2 .skill-container:hover,
+  #template-2 ::-webkit-scrollbar-thumb,
+  #template-2 .blog-heading::after,
+  #template-2 .blog-heading::before,
+  #template-2 .form-input-group input + span::after,
+  #template-2 .form-input-group textarea + span::after {
+    background-color: rgb(53, 245, 136);
+  }
+  #template-2 .switch__border-color,
+  #template-2 .input-search:focus,
+  #template-2 .active-mode {
+    border: 1px solid rgb(53, 245, 136);
+  }
+  #template-2 .switch__stroke-color {
+    stroke: rgb(53, 245, 136);
+  }
+  #template-2 .skill-container:hover .skills-icon,
+  #template-2 .skill__name {
+    color: var(--hover-color);
+  }
+
+/* Theme template color 3 */
+#template-3 
+  .switch__color,
+  #template-3 .active-links,
+  #template-3 h1,
+  #template-3 h2,
+  #template-3 h3,
+  #template-3 h4,
+  #template-3 .nav__links:hover,
+  #template-3 .link-icon {
+    color: rgb(255, 73, 200);
+  }
+
+  #template-3 .fill__color {
+    fill: rgb(255, 73, 200);
+  }
+    #template-3 .switch__bg, #template-3 .nav__toggler::after, #template-3 .nav__toggler::before,
+
+  #template-3 .skill-container::after,
+  #template-3 .skill-container:hover,
+  #template-3 ::-webkit-scrollbar-thumb,
+  #template-3 .blog-heading::after,
+  #template-3 .blog-heading::before,
+  #template-3 .form-input-group input + span::after,
+  #template-3 .form-input-group textarea + span::after {
+    background-color: rgb(255, 73, 200);
+  }
+  #template-3 .switch__border-color,
+  #template-3 .input-search:focus,
+  #template-3 .active-mode {
+    border: 1px solid rgb(255, 73, 200);
+  }
+  #template-3 .switch__stroke-color {
+    stroke: rgb(255, 73, 200);
+  }
+  #template-3 .skill-container:hover .skills-icon,
+  #template-3 .skill__name {
+    color: var(--hover-color);
+  }
+
+
+/* Theme template color 4 */
+#template-4 
+  .switch__color,
+  #template-4 .active-links,
+  #template-4 h1,
+  #template-4 h2,
+  #template-4 h3,
+  #template-4 h4,
+  #template-4 .nav__links:hover,
+  #template-4 .link-icon {
+    color: rgb(240, 93, 70);
+  }
+  #template-4 .fill__color {
+    fill: rgb(240, 93, 70);
+  }
+    #template-4 .switch__bg, #template-4 .nav__toggler::after, #template-4 .nav__toggler::before,
+
+  #template-4 .skill-container::after,
+  #template-4 .skill-container:hover,
+  #template-4 ::-webkit-scrollbar-thumb,
+  #template-4 .blog-heading::after,
+  #template-4 .blog-heading::before,
+  #template-4 .form-input-group input + span::after,
+  #template-4 .form-input-group textarea + span::after {
+    background-color: rgb(240, 93, 70);
+  }
+  #template-4 .switch__border-color,
+  #template-4 .input-search:focus,
+  #template-4 .active-mode {
+    border: 2px solid #f05d46;
+  }
+  #template-4 .switch__stroke-color {
+    stroke: #f05d46;
+  }
+  #template-4 .skill-container:hover .skills-icon,
+  #template-4 .skill__name {
+    color: var(--hover-color);
+  }
+
+/* Theme template color 5 */
+#template-5 
+  .switch__color,
+  #template-5 .active-links,
+  #template-5 h1,
+  #template-5 h2,
+  #template-5 h3,
+  #template-5 h4,
+  #template-5 .nav__links:hover,
+  #template-5 .link-icon {
+    color: #fdae38;
+  }
+
+  #template-5 .fill__color {
+    fill: #fdae38;
+  }
+    #template-5 .switch__bg, #template-5 .nav__toggler::after, #template-5 .nav__toggler::before,
+
+  #template-5 .skill-container::after,
+  #template-5 .skill-container:hover,
+  #template-5 ::-webkit-scrollbar-thumb,
+  #template-5 .blog-heading::after,
+  #template-5 .blog-heading::before,
+  #template-5 .form-input-group input + span::after,
+  #template-5 .form-input-group textarea + span::after {
+    background-color: #fdae38;
+  }
+  #template-5 .switch__border-color,
+  #template-5 .input-search:focus,
+  #template-5 .active-mode {
+    border: 1px solid #fdae38;
+  }
+  #template-5 .switch__stroke-color {
+    stroke: #fdae38;
+  }
+  #template-5 .skill-container:hover .skills-icon,
+  #template-5 .skill__name {
+    color: var(--hover-color);
+  }
+
+/* Theme template color 6 */
+#template-6
+  .switch__color,
+  #template-6 .active-links,
+  #template-6 h1,
+  #template-6 h2,
+  #template-6 h3,
+  #template-6 h4,
+  #template-6 .nav__links:hover,
+  #template-6 .link-icon {
+    color: var(--color-tem);
+  }
+
+  #template-6 .fill__color {
+    fill: var(--color-tem);
+  }
+    #template-6 .switch__bg, #template-6 .nav__toggler::after, #template-6 .nav__toggler::before,
+
+  #template-6 .skill-container::after,
+  #template-6 .skill-container:hover,
+  #template-6 ::-webkit-scrollbar-thumb,
+  #template-6 .blog-heading::after,
+  #template-6 .blog-heading::before,
+  #template-6 .form-input-group input + span::after,
+  #template-6 .form-input-group textarea + span::after {
+    background-color: var(--color-tem);
+  }
+  #template-6 .switch__border-color,
+  #template-6 .input-search:focus,
+  #template-6 .active-mode {
+    border: 1px solid var(--color-tem);
+  }
+  #template-6 .switch__stroke-color {
+    stroke: var(--color-tem);
+  }
+  #template-6 .skill-container:hover .skills-icon,
+  #template-6 .skill__name {
+    color: var(--hover-color);
+  }
+
+/* Theme template color 7 */
+#template-7 
+  .switch__color,
+  #template-7 .active-links,
+  #template-7 h1,
+  #template-7 h2,
+  #template-7 h3,
+  #template-7 h4,
+  #template-7 .nav__links:hover,
+  #template-7 .link-icon {
+    color: #a37346;
+  }
+
+  #template-7 .fill__color {
+    fill: #a37346;
+  }
+    #template-7 .switch__bg, #template-7 .nav__toggler::after, #template-7 .nav__toggler::before,
+
+  #template-7 .skill-container:hover,
+  #template-7 .skill-container::after,
+  #template-7 ::-webkit-scrollbar-thumb,
+  #template-7 .blog-heading::after,
+  #template-7 .blog-heading::before,
+  #template-7 .form-input-group input + span::after,
+  #template-7 .form-input-group textarea + span::after {
+    background-color: #a37346;
+  }
+  #template-7 .switch__border-color,
+  #template-7 .input-search:focus,
+  #template-7 .active-mode {
+    border: 1px solid #a37346;
+  }
+  #template-7 .switch__stroke-color {
+    stroke: #a37346;
+  }
+  #template-7 .skill-container:hover .skills-icon,
+  #template-7 .skill__name {
+    color: var(--hover-color);
+  }
+
+
+/* switch the text colors to whichever you like */
