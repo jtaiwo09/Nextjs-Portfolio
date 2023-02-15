@@ -53,16 +53,16 @@ body {
   padding: 0 2rem;
 }
 
+.swiper-button-prev:after, .swiper-button-next:after {
+
+}
+
 @layer base {
   h1, h2, h3, h4, h5, h6 {
     @apply text-color-tem
   }
   p {
-    @apply text-hover-color;
-    line-height: 1.5;
-    margin-bottom: 1rem;
-    font-size: 1.1rem;
-    font-weight: 400;
+    @apply text-hover-color font-light tracking-wider mb-[1rem] text-[1.1rem] leading-[1.5];
   }
   a {
     @apply text-primary-color;
@@ -143,6 +143,9 @@ body {
   .section__padding {
     padding: 0 2rem;
   }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 30px !important;
+  }
 }
 
 @media screen and (max-width: 450px) {
@@ -151,5 +154,8 @@ body {
   }
   p {
     font-size: 0.875rem;
+  }
+  .swiper-button-prev:after, .swiper-button-next:after {
+    font-size: 20px !important;
   }
 }
