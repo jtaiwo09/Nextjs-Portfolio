@@ -152,7 +152,9 @@ const projects = [
     
     <p>
     I was the Lead Frontend engineer so I got to work with other engineers and contractors on various tools. It certainly was a great learning experience.
-    </p>`,
+    </p>
+    <p><a style='color: blue; text-decoration:underline;' href='https://spleet.africa' target='_blank'>Spleet Africa</a></>
+    `,
     imgUrl: [
       "v1668428578/sp1_xfj9bt.png",
       "v1668428579/sp2_rwyqyo.png",
@@ -188,7 +190,9 @@ const projects = [
     
     <p>
     CitiTasker is still a work in project as the product hasn't made it yet to the real world and I absolutely hope that it does someday
-    </p>`,
+    </p>
+    <p><a style='color: blue; text-decoration:underline;' href='https://cititasker.vercel.app' target='_blank'>CitiTasker Technology</a></>
+    `,
     imgUrl: [
       "v1668429137/ct1_obgfpq.png",
       "v1668429136/ct2_i6xerr.png",
@@ -206,7 +210,9 @@ const projects = [
   {
     id: 3,
     name: "JTK Portfolio",
-    desc: `<p>JTK Portfolio website is created to get a detailed information about who Taiwo Joseph is, his skills, experience and project he has executed. This portfolio is built with Next Js and tailwind CSS.</p>`,
+    desc: `<p>JTK Portfolio website is created to get a detailed information about who Taiwo Joseph is, his skills, experience and project he has executed. This portfolio is built with Next Js and tailwind CSS.</p>
+    <p><a style='color: blue; text-decoration:underline;' href='https://jtk.vercel.app' target='_blank'>JTK Portfolio</a></>
+    `,
     imgUrl: [
       "v1676497134/portfolio-home_d5b5qq.png",
       "v1676497948/portfolio-about_pcb0al.png",
