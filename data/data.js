@@ -153,7 +153,7 @@ const projects = [
     <p>
     I was the Lead Frontend engineer so I got to work with other engineers and contractors on various tools. It certainly was a great learning experience.
     </p>
-    <p><a style='color: #2E48DA; text-decoration:underline;' href='https://spleet.africa' target='_blank'>Spleet Africa</a></>
+    <p><a style='color: #4287f5; text-decoration:underline;' href='https://spleet.africa' target='_blank'>Spleet Africa</a></>
     `,
     imgUrl: [
       "v1668428578/sp1_xfj9bt.png",
