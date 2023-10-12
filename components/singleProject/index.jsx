@@ -30,7 +30,7 @@ const Project = ({
               <Link
                 href={website.url}
                 target="_blank"
-                className="switch__color text-[30px] mb-[3px] text-white block"
+                className="switch__color text-[30px] mb-[3px] text-white block hover:scale-[1.1] transition-all hover:text-[#4287f5]"
               >
                 {website.icon}
               </Link>
@@ -38,7 +38,7 @@ const Project = ({
             <Link
               href={gitHubUrl.url}
               target="_blank"
-              className="switch__color text-[30px] mb-[3px] text-white block"
+              className="switch__color text-[30px] mb-[3px] text-white block hover:scale-[1.1] transition-all hover:text-[#4287f5]"
             >
               {gitHubUrl.icon}
             </Link>
