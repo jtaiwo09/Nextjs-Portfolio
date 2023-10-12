@@ -175,6 +175,85 @@ const projects = [
   },
   {
     id: 2,
+    name: "Black Box",
+    desc: `<p>
+    Blacbox is a multi-API system that delivers data on various services to help your business grow faster. We guarantee coordinates where your company can connect with existing customers, get new customers, develop business insights, and increase revenue.
+    </p>
+
+    <p style='text-decoration:underline;'>
+    Project Description
+    </p>
+    <p>
+    In this project, I served as a React Developer, focusing on creating a seamless user interface for Blackbox, a versatile multi-API system empowering businesses. I integrated key functionalities like account management, payment processing, OTP confirmation, BVN verification, and real-time access to vital bank information. My role ensured businesses could leverage Blackbox's full potential effortlessly.
+    </p>
+
+    <p style='text-decoration:underline;'>
+    Project Outcome
+    </p>
+    <p>
+    Enhanced User Experience: Users interact seamlessly with diverse services through an intuitive interface, leading to improved engagement.
+    </p>
+    <p>
+    Efficient Operations: Businesses experience streamlined processes, from account management to real-time financial data access, enhancing efficiency.
+    </p>
+    <p><a style='color: #4287f5; text-decoration:underline;' href='https://future-blackboc.netlify.app/' target='_blank'>BlackBox</a></>
+    `,
+    imgUrl: [
+      "v1697097612/Screenshot_2023-10-12_at_8.56.22_AM_ulq5vk.png",
+      "v1697097611/Screenshot_2023-10-12_at_8.57.32_AM_sp4yvg.png",
+      "v1697097611/Screenshot_2023-10-12_at_8.57.56_AM_vqrk8e.png",
+      "v1697097610/Screenshot_2023-10-12_at_8.56.45_AM_b2ibzo.png",
+    ],
+    website: {
+      icon: <TbWorld />,
+      url: "https://future-blackboc.netlify.app/",
+    },
+    gitHubUrl: {
+      icon: <GrGithub />,
+      url: "https://github.com/jtaiwo09",
+    },
+  },
+  {
+    id: 3,
+    name: "WallX",
+    desc: `<p>
+    Wallx offers simplified access to various financial and lifestyle services to help your business grow and, scale across Africa.
+    </p>
+
+    <p style='text-decoration:underline;'>
+    Project Description
+    </p>
+    <p>
+    As a dedicated developer, I contributed to WallX, a project simplifying access to various financial and lifestyle services. My role involved building the digital infrastructure, ensuring smooth user interactions and secure transactions. The platform's innovative design facilitates business growth and scalability across Africa.
+    </p>
+
+    <p style='text-decoration:underline;'>
+    Project Outcome
+    </p>
+    <p>
+    Seamless Transactions: Users experience effortless transactions, ensuring businesses and individuals conduct socio-lifestyle activities smoothly.
+    </p>
+    <p>
+    Financial Accessibility: WallX empowers users with accessible financial tools, fostering financial literacy and enabling informed decisions.
+    </p>
+    <p><a style='color: #4287f5; text-decoration:underline;' href='https://future-wallx.netlify.app' target='_blank'>WallX</a></>
+    `,
+    imgUrl: [
+      "v1697098641/wallx-home_cx0lyc.png",
+      "v1697098641/wallx-why_mfbuj9.png",
+      "v1697098641/wallx-services_rlupai.png",
+    ],
+    website: {
+      icon: <TbWorld />,
+      url: "https://future-wallx.netlify.app/",
+    },
+    gitHubUrl: {
+      icon: <GrGithub />,
+      url: "https://github.com/jtaiwo09",
+    },
+  },
+  {
+    id: 4,
     name: "CitiTasker Technology",
     desc: `<p>
     CitiTasker is a startup that aims to create a platform to increase transparency in the local community, help people connect with trusted tradesmen to get their tasks done and create working opportunities in the service economy.
@@ -191,7 +270,7 @@ const projects = [
     <p>
     CitiTasker is still a work in project as the product hasn't made it yet to the real world and I absolutely hope that it does someday
     </p>
-    <p><a style='color: blue; text-decoration:underline;' href='https://cititasker.vercel.app' target='_blank'>CitiTasker Technology</a></>
+    <p><a style='color: #4287f5; text-decoration:underline;' href='https://cititasker.vercel.app' target='_blank'>CitiTasker Technology</a></>
     `,
     imgUrl: [
       "v1668429137/ct1_obgfpq.png",
@@ -200,7 +279,7 @@ const projects = [
     ],
     website: {
       icon: <TbWorld />,
-      url: "https://ai-news-application.netlify.app",
+      url: "#",
     },
     gitHubUrl: {
       icon: <GrGithub />,
@@ -208,47 +287,46 @@ const projects = [
     },
   },
   {
-    id: 3,
-    name: "JTK Portfolio",
+    id: 5,
+    name: "JTK Protfolio",
     desc: `<p>JTK Portfolio website is created to get a detailed information about who Taiwo Joseph is, his skills, experience and project he has executed. This portfolio is built with Next Js and tailwind CSS.</p>
-    <p><a style='color: blue; text-decoration:underline;' href='https://jtk.vercel.app' target='_blank'>JTK Portfolio</a></>
+    <p><a style='color: #4287f5; text-decoration:underline;' href='https://jtk.vercel.app' target='_blank'>JTK Portfolio</a></>
     `,
     imgUrl: [
       "v1676497134/portfolio-home_d5b5qq.png",
       "v1676497948/portfolio-about_pcb0al.png",
       "v1676496822/portfolio-projects_va7ybw.png",
       "v1676498174/portfolio-contact_ujf8ox.png",
-      // "v1676498320/portfolio-light_dpeosh.png",
     ],
     website: {
       icon: <TbWorld />,
-      url: "https://jtk-sneakers.netlify.app/",
+      url: "https://jtk.vercel.app/",
     },
     gitHubUrl: {
       icon: <GrGithub />,
       url: "https://github.com/jtaiwo09",
     },
   },
-  {
-    id: 4,
-    name: "Beach Resort",
-    desc: `<p>Coming Soon!!!</p>`,
-    imgUrl: [
-      "v1676499386/br-1_qditjf.png",
-      "v1676499366/br-3_ziigk4.png",
-      "v1676499362/br-4_og2zy6.png",
-      "v1676499364/br-6_ngfrlf.png",
-      "v1676499347/br-2_z3nnov.png",
-    ],
-    website: {
-      icon: <TbWorld />,
-      url: "https://beach-resort007.netlify.app",
-    },
-    gitHubUrl: {
-      icon: <GrGithub />,
-      url: "https://github.com/jtaiwo09",
-    },
-  },
+  // {
+  //   id: 6,
+  //   name: "Beach Resort",
+  //   desc: `<p>Coming Soon!!!</p>`,
+  //   imgUrl: [
+  //     "v1676499386/br-1_qditjf.png",
+  //     "v1676499366/br-3_ziigk4.png",
+  //     "v1676499362/br-4_og2zy6.png",
+  //     "v1676499364/br-6_ngfrlf.png",
+  //     "v1676499347/br-2_z3nnov.png",
+  //   ],
+  //   website: {
+  //     icon: <TbWorld />,
+  //     url: "https://beach-resort007.netlify.app",
+  //   },
+  //   gitHubUrl: {
+  //     icon: <GrGithub />,
+  //     url: "https://github.com/jtaiwo09",
+  //   },
+  // },
 ];
 
 export { sideBarMenu, socialIcons, skillSet, projects };
