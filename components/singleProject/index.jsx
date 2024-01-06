@@ -26,7 +26,7 @@ const Project = ({
               e.stopPropagation();
             }}
           >
-            {website && (
+            {website && website.url && (
               <Link
                 href={website.url}
                 target="_blank"

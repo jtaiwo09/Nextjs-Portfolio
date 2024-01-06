@@ -27,6 +27,7 @@ const sideBarMenu = [
     text: "About",
     icon: <BsPersonLinesFill className="link-icon switch__color" />,
     url: "/about",
+    name: "about",
   },
   {
     text: "Projects",
@@ -206,52 +207,52 @@ const projects = [
     ],
     website: {
       icon: <TbWorld />,
-      url: "https://future-blackboc.netlify.app/",
+      url: "https://blacbox.app/",
     },
     gitHubUrl: {
       icon: <GrGithub />,
       url: "https://github.com/jtaiwo09",
     },
   },
-  {
-    id: 3,
-    name: "WallX",
-    desc: `<p>
-    Wallx offers simplified access to various financial and lifestyle services to help your business grow and, scale across Africa.
-    </p>
+  // {
+  //   id: 3,
+  //   name: "WallX",
+  //   desc: `<p>
+  //   Wallx offers simplified access to various financial and lifestyle services to help your business grow and, scale across Africa.
+  //   </p>
 
-    <p style='text-decoration:underline;'>
-    Project Description
-    </p>
-    <p>
-    As a dedicated developer, I contributed to WallX, a project simplifying access to various financial and lifestyle services. My role involved building the digital infrastructure, ensuring smooth user interactions and secure transactions. The platform's innovative design facilitates business growth and scalability across Africa.
-    </p>
+  //   <p style='text-decoration:underline;'>
+  //   Project Description
+  //   </p>
+  //   <p>
+  //   As a dedicated developer, I contributed to WallX, a project simplifying access to various financial and lifestyle services. My role involved building the digital infrastructure, ensuring smooth user interactions and secure transactions. The platform's innovative design facilitates business growth and scalability across Africa.
+  //   </p>
 
-    <p style='text-decoration:underline;'>
-    Project Outcome
-    </p>
-    <p>
-    Seamless Transactions: Users experience effortless transactions, ensuring businesses and individuals conduct socio-lifestyle activities smoothly.
-    </p>
-    <p>
-    Financial Accessibility: WallX empowers users with accessible financial tools, fostering financial literacy and enabling informed decisions.
-    </p>
-    <p><a style='color: #4287f5; text-decoration:underline;' href='https://future-wallx.netlify.app' target='_blank'>WallX</a></>
-    `,
-    imgUrl: [
-      "v1697098641/wallx-home_cx0lyc.png",
-      "v1697098641/wallx-why_mfbuj9.png",
-      "v1697098641/wallx-services_rlupai.png",
-    ],
-    website: {
-      icon: <TbWorld />,
-      url: "https://future-wallx.netlify.app/",
-    },
-    gitHubUrl: {
-      icon: <GrGithub />,
-      url: "https://github.com/jtaiwo09",
-    },
-  },
+  //   <p style='text-decoration:underline;'>
+  //   Project Outcome
+  //   </p>
+  //   <p>
+  //   Seamless Transactions: Users experience effortless transactions, ensuring businesses and individuals conduct socio-lifestyle activities smoothly.
+  //   </p>
+  //   <p>
+  //   Financial Accessibility: WallX empowers users with accessible financial tools, fostering financial literacy and enabling informed decisions.
+  //   </p>
+  //   <p><a style='color: #4287f5; text-decoration:underline;' href='https://future-wallx.netlify.app' target='_blank'>WallX</a></>
+  //   `,
+  //   imgUrl: [
+  //     "v1697098641/wallx-home_cx0lyc.png",
+  //     "v1697098641/wallx-why_mfbuj9.png",
+  //     "v1697098641/wallx-services_rlupai.png",
+  //   ],
+  //   website: {
+  //     icon: <TbWorld />,
+  //     url: "https://future-wallx.netlify.app/",
+  //   },
+  //   gitHubUrl: {
+  //     icon: <GrGithub />,
+  //     url: "https://github.com/jtaiwo09",
+  //   },
+  // },
   {
     id: 4,
     name: "CitiTasker Technology",
@@ -279,7 +280,7 @@ const projects = [
     ],
     website: {
       icon: <TbWorld />,
-      url: "#",
+      url: "https://cititasker.vercel.app",
     },
     gitHubUrl: {
       icon: <GrGithub />,

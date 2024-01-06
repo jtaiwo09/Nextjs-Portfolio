@@ -18,7 +18,7 @@ const Project = () => {
         <div className="py-[100px]">
           <Title title={title} />
           <Fade bottom duration={1200} delay={100}>
-            <p className="mb-10">
+            <p className="mb-10 text-sm">
               Here are some selected and challenging personal projects that I
               have worked on so far which enabled me to level up my skills to a
               fascinating point that makes me feel confident in tackling more

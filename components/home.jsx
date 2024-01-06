@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import Button from "./button";
 import Image from "next/image";
-import Profile from "@/public/profile.png";
+import Profile from "@/public/jtk-profile.jpeg";
 import Fade from "react-reveal/Fade";
 
 const name = [
@@ -53,7 +53,7 @@ const Home = () => {
           <Image
             src={Profile}
             alt="profile"
-            className="w-full h-full object-cover object-[-30px,center]"
+            className="w-full h-full object-cover object-[5px,center]"
           />
         </div>
         <div className="intro__page">

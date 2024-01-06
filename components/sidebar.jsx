@@ -1,12 +1,13 @@
 import Link from "next/link";
 import React from "react";
-import Profile from "@/public/profile.png";
+import Profile from "@/public/jtk-profile.jpeg";
 import Image from "next/image";
 import { sideBarMenu, socialIcons } from "@/data/data";
 import { useRouter } from "next/router";
 
 const Sidebar = () => {
   const route = useRouter();
+
   return (
     <aside className="hidden sm:block w-full max-w-[150px] h-full fixed bg-sideBar-bg top-0 left-0 z-[3] transition-[all_0.3s_cubic-bezier(0.175, 0.885, 0.32, 1.275)] translate-x-0 after:content[''] after:absolute after:w-full after:h-[180px] after:top-0 after:left-0 after:bg-typical-color">
       <div className="w-[80%] min-h-[90vh] overflow-y-auto m-auto flex flex-col justify-between">
@@ -17,7 +18,7 @@ const Sidebar = () => {
           <Image
             src={Profile}
             alt="profile"
-            className="w-[100px] h-[100px] object-cover object-[-15px_center] bg-white rounded-full"
+            className="w-[100px] h-[100px] object-cover object-[6px_center] bg-white rounded-full"
           />
           <span className="text-white switch__color">Taiwo J.</span>
         </Link>
@@ -26,11 +27,11 @@ const Sidebar = () => {
             <li key={index} className="leading-[2.8] relative">
               <Link
                 href={url}
-                className={`${
+                className={`flex items-center transition-[all_250ms_linear] ${
                   route.pathname === url || route.pathname.includes(name)
                     ? "active-links"
-                    : ""
-                } flex items-center transition-[all_250ms_linear] nav__links`}
+                    : "nav__links"
+                }  `}
                 passHref
               >
                 <>

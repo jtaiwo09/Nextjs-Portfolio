@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import style from "./styles.module.css";
-import { RxSpeakerLoud, RxSpeakerOff } from "react-icons/rx";
+import { MdMusicOff } from "react-icons/md";
+import { HiOutlineMusicNote } from "react-icons/hi";
 import useSound from "use-sound";
 
 const Audio = ({ propClass }) => {
   const [value, setValue] = useState(false);
   const [playClick] = useSound("/sounds/click.wav", { volume: 0.2 });
-  const [playSound, { stop }] = useSound("/sounds/sound-1.mp3", {
+  const [playSound, { stop }] = useSound("/sounds/sound-2.mp3", {
     volume: 0.5,
     onend: function () {
       setValue(false);
@@ -34,9 +35,9 @@ const Audio = ({ propClass }) => {
       <div className="flex w-fit ml-auto items-center">
         <div className="icon">
           {value ? (
-            <RxSpeakerLoud className="text-[24px] switch__color" />
+            <HiOutlineMusicNote className="text-[24px] switch__color" />
           ) : (
-            <RxSpeakerOff className="text-[24px] text-[#ccc]" />
+            <MdMusicOff className="text-[24px] text-[#ccc]" />
           )}
         </div>
         <label className={`${style.switch} group`} onClick={handlePlay}>

@@ -57,13 +57,12 @@ const Contact = () => {
       <section className="section__padding bg-primary-bg min-h-screen relative">
         <div className="fake-big">Contact</div>
         <div className="flex flex-col">
-          <div className="py-[100px] w-full md:w-[50%]">
+          <div className="py-[100px] w-full max-w-[600px]">
             <Title title={title} />
             <Fade delay={500} bottom>
-              <p className="max-w-[600px] s-w-full">
-                I’m interested in freelance opportunities and I am always ready
-                to build projects at anytime, if you have any job offer for me,
-                you could use the form below to react out to me.
+              <p className="">
+                If you have any job offer for me, you could use the form below
+                to reach out to me.
               </p>
             </Fade>
             <form ref={form} onSubmit={handleSubmit} className="mt-10">
