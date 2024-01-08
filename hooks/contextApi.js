@@ -8,7 +8,7 @@ export const AppProvider = ({ children }) => {
   const [colorTheme, setColorTheme] = useState("dark-mode");
   const [isTemplateOpen, setIsTemplateOpen] = useState(false);
   const [showSearchInput, setShowSearchInput] = useState(false);
-  const [changeTemp, setChangeTemp] = useState("template-1");
+  const [changeTemp, setChangeTemp] = useState("template-5");
   const [play] = useSound("/sounds/click.wav", { volume: 0.25 });
   const [chirpPlay] = useSound("/sounds/chirp.wav", { volume: 0.8 });
 
