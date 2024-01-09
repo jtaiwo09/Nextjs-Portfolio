@@ -22,7 +22,27 @@ const name = [
   "p",
   "h",
 ];
-const job = ["W", "e", "b", " ", "D", "e", "v", "e", "l", "o", "p", "e", "r"];
+const job = [
+  "A",
+  "",
+  "S",
+  "o",
+  "f",
+  "t",
+  "w",
+  "a",
+  "r",
+  "e",
+  " ",
+  "E",
+  "n",
+  "g",
+  "i",
+  "n",
+  "e",
+  "e",
+  "r",
+];
 
 const container = {
   hidden: { opacity: 1, scale: 0 },
@@ -64,7 +84,7 @@ const Home = () => {
               initial="hidden"
               animate="visible"
             >
-              {["H", "i", ",", " ", "👋"].map((char, index) => (
+              {["H", "i", "", ",", " ", "👋"].map((char, index) => (
                 <motion.span
                   key={index}
                   className="md:mb-6 text-animate"
