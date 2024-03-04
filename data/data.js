@@ -138,6 +138,71 @@ const skillSet = [
 
 const projects = [
   {
+    id: 0,
+    name: "TRUHR",
+    desc: `
+    <p>Truhr is a recruitment agency platform for both job seekers and employers, facilitating the recruitment process with advanced features such as job posting management and role-based authorization within an admin interface. This is a full-stack web application developed using Next.js, MongoDB for database storage, and NextAuth.js for authentication.</p>
+      <p><strong>Key Features:</strong></p>
+      <ol>
+      <li>
+      <p><strong>User Authentication and Authorization:</strong></p>
+      <ul>
+      <li>Implemented user authentication using NextAuth.js credentials.</li>
+      <li>Role-based authorization controls access to different sections of the application, ensuring that only authorized users can perform specific actions.</li>
+      </ul>
+      </li>
+      <li>
+      <p><strong>Job Posting Management:</strong></p>
+      <ul>
+      <li>The admin interface allows authorized users to manage job postings efficiently.</li>
+      <li>Admin can create, edit, delete, and deactivate job postings, along with specifying details such as job title, description, requirements, and application deadlines.</li>
+      <li>Advanced search and filtering capabilities enable users to quickly find relevant job postings based on criteria such as job title.</li>
+      </ul>
+      </li>
+      <li>
+      <p><strong>Candidate Management:</strong></p>
+      <ul>
+      <li>Job seekers can upload resumes, and browse available job postings.</li>
+      <li>Users can apply for jobs directly through the platform, with the option to attach their resume and cover letter.</li>
+      </ul>
+      <p><strong>Responsive Design and Accessibility:</strong></p>
+      <ul>
+      <li>The application features a responsive design that adapts seamlessly to different screen sizes and devices, providing an optimal user experience on desktops, tablets, and smartphones.</li>
+      </ul>
+      </li>
+      </ol>
+      <p><strong>Technology Stack:</strong></p>
+      <ul>
+      <li>Frontend: Next.js for server-side rendering, React for building interactive UI components, and Tailwind CSS for styling.</li>
+      <li>Backend: Next.js for server-side logic, and routing, and NextAuth.js for authentication.</li>
+      <li>Database: MongoDB for storing job postings, candidate profiles, user accounts, and application data.</li>
+      <li>Deployment: The application is deployed on a Vercel cloud platform to ensure scalability, reliability, and high availability.</li>
+      </ul>
+      <p><strong>Future Enhancements:</strong></p>
+      <ol>
+      <li>Integration with third-party job boards and social media platforms for wider job distribution.</li>
+      <li>Advanced analytics and reporting capabilities for admin to track recruitment metrics and performance.</li>
+      <li>Automated candidate screening and assessment features to streamline the hiring process.</li>
+      <li>Integration with applicant tracking systems (ATS) for seamless data exchange and workflow integration.</li>
+      </ol>
+      <p><a style='color: #4287f5; text-decoration:underline;' href='https://truhr-app.vercel.app/' target='_blank'>TRUHR</a></>
+    `,
+    imgUrl: [
+      "v1709560839/truhr-1.png",
+      "v1709560828/truhr-2.png",
+      "v1709560826/truhr-3.png",
+      "v1709560820/truhr-4.png",
+    ],
+    website: {
+      icon: <TbWorld />,
+      url: "https://truhr-app.vercel.app",
+    },
+    gitHubUrl: {
+      icon: <GrGithub />,
+      url: "https://github.com/jtaiwo09",
+    },
+  },
+  {
     id: 1,
     name: "Spleet Africa",
     desc: `<p className=''>Spleet is a one-stop shop for all and a complete rental solution for landlords and tenants - With Spleet you can lease your apartment, rent a space, take a rental loan, verify tenants and automatically collect rent with our rental management tools.</p>

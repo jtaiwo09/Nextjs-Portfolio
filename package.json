@@ -9,8 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
+    "@emailjs/browser": "^4.2.0",
     "@next/font": "13.1.6",
+    "@tailwindcss/typography": "^0.5.10",
     "animate.css": "^4.1.1",
     "framer-motion": "^9.0.2",
     "html-react-parser": "^3.0.9",

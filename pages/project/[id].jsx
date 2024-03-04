@@ -64,7 +64,7 @@ const ProjectDetails = () => {
             ))}
           </Swiper>
         </div>
-        <div className="mt-10 max-w-[1000px] m-auto">
+        <div className="mt-10 max-w-[1000px] m-auto prose">
           {parse(findProject?.desc)}
         </div>
       </div>

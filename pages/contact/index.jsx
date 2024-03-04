@@ -1,7 +1,7 @@
 import ActionButton from "@/components/actionButton";
 import TextInput from "@/components/textInput";
 import Title from "@/components/title";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 import Fade from "react-reveal/Fade";
 import emailjs from "@emailjs/browser";
 import { toast } from "react-toastify";
@@ -20,6 +20,8 @@ const Contact = () => {
   const form = useRef(null);
   const [isLoading, setIsLoading] = useState(false);
 
+  useEffect(() => emailjs.init("HJ85cogQXkfh3spHJ"), []);
+
   const handleChange = (e) => {
     const { value, name } = e.target;
     setValue((state) => ({ ...state, [name]: value }));
@@ -27,27 +29,24 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setIsLoading(true);
-    emailjs
-      .sendForm(
-        "service_jzjpjsh",
-        "template_b1y0zuu",
-        form.current,
-        "HJ85cogQXkfh3spHJ"
-      )
-      .then(() => {
-        setIsLoading(false);
-        toast.success("Message sent successfully", { theme: "colored" });
-        setValue({
-          name: "",
-          email: "",
-          subject: "",
-          message: "",
+    try {
+      emailjs
+        .sendForm("service_jzjpjsh", "template_b1y0zuu", form.current)
+        .then((response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          toast.success("Message sent successfully", { theme: "colored" });
+          setValue({
+            name: "",
+            email: "",
+            subject: "",
+            message: "",
+          });
         });
-      })
-      .catch(() => {
-        setIsLoading(false);
-        toast.error("Error sending message");
-      });
+    } catch (error) {
+      toast.error("Error sending message");
+    } finally {
+      setIsLoading(false);
+    }
   };
   return (
     <>
