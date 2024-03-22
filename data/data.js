@@ -195,7 +195,7 @@ const projects = [
     ],
     website: {
       icon: <TbWorld />,
-      url: "https://truhr-app.vercel.app",
+      url: "https://truhr.vercel.app",
     },
     gitHubUrl: {
       icon: <GrGithub />,
